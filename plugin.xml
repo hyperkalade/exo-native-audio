@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="@skala2/exo-native-audio" version="0.1.0"
+        xmlns="http://schemas.android.com/plugins/1.0">
+  <platform name="android">
+    <source-file src="plugin/android/src/main/java/com/skala/exoaudio/…"
+                 target-dir="app/src/main/java/com/skala/exoaudio"/>
+    …
+  </platform>
+</plugin>

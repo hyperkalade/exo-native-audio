@@ -1,0 +1,31 @@
+{
+  "name": "@skala2/exo-native-audio",
+  "version": "0.1.0",
+  "description": "Capacitor 7 plugin for ExoPlayer…",
+  "main": "dist/plugin.js",
+  "types": "dist/plugin.d.ts",
+  "files": [
+    "dist",
+    "plugin",
+    "plugin.xml"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "capacitor",
+    "android",
+    "audio"
+  ],
+  "author": "SKALA-2",
+  "license": "MIT",
+  "capacitor": {
+    "platforms": ["android"],
+    "android": {
+      "src": "plugin/android"
+    }
+  },
+  "devDependencies": {
+    "typescript": "5.2.2"
+  }
+}
